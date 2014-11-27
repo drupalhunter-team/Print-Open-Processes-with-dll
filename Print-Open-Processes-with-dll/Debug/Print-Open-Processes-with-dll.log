@@ -1,0 +1,15 @@
+﻿Build started 27-Nov-14 15:39:37.
+     1>Project "C:\Users\Bilal\Documents\Visual Studio 2012\Projects\Print-Open-Processes-with-dll\Print-Open-Processes-with-dll\Print-Open-Processes-with-dll.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /UNo /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\bilal\documents\visual studio 2012\projects\print-open-processes-with-dll\print-open-processes-with-dll\source.cpp(67): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\bilal\documents\visual studio 2012\projects\print-open-processes-with-dll\print-open-processes-with-dll\source.cpp(118): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Bilal\Documents\Visual Studio 2012\Projects\Print-Open-Processes-with-dll\Debug\Print-Open-Processes-with-dll.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Bilal\Documents\Visual Studio 2012\Projects\Print-Open-Processes-with-dll\Debug\Print-Open-Processes-with-dll.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Bilal\Documents\Visual Studio 2012\Projects\Print-Open-Processes-with-dll\Debug\Print-Open-Processes-with-dll.lib" /MACHINE:X86 Debug\Source.obj
+         Print-Open-Processes-with-dll.vcxproj -> C:\Users\Bilal\Documents\Visual Studio 2012\Projects\Print-Open-Processes-with-dll\Debug\Print-Open-Processes-with-dll.exe
+     1>Done Building Project "C:\Users\Bilal\Documents\Visual Studio 2012\Projects\Print-Open-Processes-with-dll\Print-Open-Processes-with-dll\Print-Open-Processes-with-dll.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.00
