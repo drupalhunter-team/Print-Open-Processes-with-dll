@@ -78,7 +78,7 @@ void PrintProcessInformation(DWORD ProcessID)
 				printf(ModuleName);
 				fprintf(File,ModuleName);
 			}
-			Sleep(4000);
+			Sleep(5000);
         }
     }
 
@@ -92,6 +92,8 @@ int main(int argc,char *argv[])
 	DWORD	NumProcess		= 0;
 	DWORD	ProIndexes[1024];
 	
+	system("color 4B"); //arka plan rengi için.
+
 	//Aşağidaki fonksiyon "ProsesModulListesi.txt" adindan bir dosya oluşturup kullanima açacaktir.
 	//bu dosyaya File değişkeni ile erişeceğiz.
 	//   "..\\"  anlami bir önceki klasör demektir. (daha ne kadar derine giderim bilemiyorum)
